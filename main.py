@@ -9,7 +9,7 @@ image = cv2.imread(image_path)
 cat_face = cat_face_cascade.detectMultiScale(image)
 
 cat = Image.open(image_path)
-glasses = Image.open('glasses.png')
+glasses = Image.open('glasses2.png')
 cat = cat.convert("RGBA")
 glasses = glasses.convert("RGBA")
 
